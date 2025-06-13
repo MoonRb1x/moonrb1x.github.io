@@ -246,3 +246,53 @@ body {
   width: 40px;
   height: 40px;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+    align-items: flex-start;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .card-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .card-buttons a.nav-button {
+    font-size: 0.9rem;
+    padding: 0.3rem 2rem;
+  }
+
+  #about-page .card-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-image {
+    margin-bottom: 1rem;
+  }
+
+  #work-page .gallery-item {
+    width: 100%;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .contact-item img {
+    margin-bottom: 0.5rem;
+  }
+
+  .skills-intro,
+  .contact-intro {
+    text-align: center;
+  }
+}
