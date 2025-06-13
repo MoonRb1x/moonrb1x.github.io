@@ -288,7 +288,8 @@ body {
   }
 
   .contact-item img {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0rem;
+    padding: 0rem;
   }
 
   .skills-intro,
