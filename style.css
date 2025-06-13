@@ -265,7 +265,7 @@ body {
 
   .card-buttons a.nav-button {
     font-size: 0.9rem;
-    padding: 0.3rem 2rem;
+    padding: 0.3rem 0.8rem;
   }
 
   #about-page .card-content {
@@ -288,7 +288,7 @@ body {
   }
 
   .contact-item img {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
   }
 
   .skills-intro,
