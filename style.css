@@ -260,7 +260,7 @@ body {
   .card-buttons {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 0.25rem;
   }
 
   .card-buttons a.nav-button {
