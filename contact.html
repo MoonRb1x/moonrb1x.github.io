@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MoonRb1x's Portfolio - Contact</title>
+  <link rel="icon" href="Images/GithubIcon.png" type="images/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card" id="contact-page">
+    <div class="card-buttons">
+      <a href="index.html" class="nav-button">About Me</a>
+      <a href="work.html" class="nav-button">My Work</a>
+      <a href="skills.html" class="nav-button">Skills</a>
+      <a href="contact.html" class="nav-button">Contact Me</a>
+    </div>
+    <hr class="card-divider" />
+    <div class="card-content">
+      <h1>Contact Me</h1>
+      <p class="contact-intro">
+        If you'd like to collaborate feel free to reach out to me through either platform below:
+      </p>
+      <div class="contact-methods">
+        <a href="https://www.roblox.com/users/1274097373/profile" class="contact-item" target="_blank">
+          <img src="Images/RobloxIcon.png" alt="Roblox Icon" />
+          <p><strong>Roblox:</strong> @MoonRb1x</p>
+        </a>
+        <div class="contact-item" onclick="copyDiscordUsername()">
+          <img src="Images/DiscordIcon.png" alt="Discord Icon" />
+          <p><strong>Discord:</strong> moonrb1x</p>
+        </div>
+        <a href="https://x.com/MoonRb1x" class="contact-item" target="_blank">
+          <img src="Images/XIcon.png" alt="X Icon" />
+          <p><strong>Twitter:</strong> @MoonRb1x</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function copyDiscordUsername() {
+      navigator.clipboard.writeText("moonrb1x").then(() => {
+        alert("Discord username copied to clipboard!");
+      }).catch(() => {
+        alert("Failed to copy Discord username.");
+      });
+    }
+  </script>
+</body>
+</html>
